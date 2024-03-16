@@ -1,0 +1,33 @@
+{
+  "name": "makerbot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && NODE_ENV=dev node dist/index.js",
+    "staging": "tsc && NODE_ENV=staging node dist/index.js",
+    "prod": "tsc && NODE_ENV=production node dist/index.js",
+    "start": "node dist/index.js",
+    "start:dev": "NODE_ENV=dev node dist/index.js",
+    "start:staging": "NODE_ENV=staging node dist/index.js",
+    "start:prod": "NODE_ENV=production node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Jan Pettersson",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/voice": "^0.16.1",
+    "discord-api-types": "^0.37.63",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "openai": "^4.19.0",
+    "yargs-parser": "^21.1.1"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.0",
+    "@types/node": "^20.9.2",
+    "@types/yargs-parser": "^21.0.3",
+    "typescript": "^5.2.2"
+  }
+}

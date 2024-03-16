@@ -1,0 +1,12 @@
+# Dependency directories
+node_modules/
+
+# Environment configuration
+.env.local
+.env.production
+
+# Build output
+dist/
+
+# Logs
+*.log
